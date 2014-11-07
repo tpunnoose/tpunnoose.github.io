@@ -31,28 +31,7 @@
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#nav">
-
-	<!-- <div id="section-topbar">
-		<div id="topbar-inner">
-			<div class="container">
-				<div class="row">
-					<div class="dropdown">
-						<ul id="nav" class="nav">
-							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="fa fa-user"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="fa fa-file-text"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#work" title="Projects"><i class="fa fa-briefcase"></i></a></li>
-							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="fa fa-envelope"></i></a></li>
-						</ul>
-					</div>
-
-					<div class="clear"></div>
-				</div>
-			</div>
-
-			<div class="clear"></div>
-		</div>
-	</div> -->
-
+	
 	<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
@@ -77,17 +56,6 @@
             </li>
         </ul>
     </nav>
-	
-<!-- 	<div id="headerwrap">
-		<div class="container">
-			<div class="row centered">
-				<div class="col-lg-12">
-					<h1>Tarun Punnoose</h1>
-					<h3>Student at TJHSST</h3>
-				</div>
-			</div>
-		</div>
-	</div> -->
 
 	<header id="top" class="header">
         <div class="text-vertical-center">
@@ -159,7 +127,7 @@
 					<p><t>Volunteer</t><br/>
 						Udvar Hazy Air and Space Museum <br/>
 					</p>
-					<img src="assets/img/AirAndScare.jpg" alt="">
+					<img src="assets/img/AirAndScare.jpg" alt="" class="img-responsive">
 					<p><more>I am currently a discovery station volunteer at the Udvar Hazy Air and Space Museum in Chantilly, VA. I help teach the visitors about aeronautics and space and keep them engaged with activities. I started doing this to spread my passion and knowledge for science to others. In the image above, I am explaining the origin and chemical makeup of a very rare Pallasite meteorite.</more></p>
 				</div>
 				<div class="col-lg-3">
@@ -222,7 +190,7 @@
 					<p><t>Best Use of MongoDB</t><br/>
 						HackRU 2014 <br/>
 					</p>
-					<img src="assets/img/MongoDB_Logo.png" alt="">
+					<img src="assets/img/MongoDB_Logo.png" class="img-responsive" alt="">
 					<p><more>At HackRU 2014, my team made InstaFood, a Pebble application that allows you to order food from your Pebble very quickly using the Ordr.in API. After only four clicks, fresh food is being delivered to your house! We won the Best Use of MongoDB API prize for this project. </more></p>
 				</div>
 				<div class="col-lg-3">
@@ -233,7 +201,7 @@
 					<p><t>Battle of the Rockets</t><br/>
 						2<sup>nd</sup> Place
 					</p>
-					<img src="assets/img/BoTR.jpg" alt="">
+					<img src="assets/img/BoTR.jpg" class="img-responsive" alt="">
 					<p><more>I was part of the Battle of the Rockets team that took 2<sup>nd</sup> place in the Mars Rover event. In this event, teams have to deploy a rover from a rocket that goes over 1,000 feet, and drive in a specific pattern on the ground.</more></p>
 				</div>
 				<div class="col-lg-3">
@@ -244,7 +212,7 @@
 					<p><t>Science Olympiad</t><br/>
 						18 Medals
 					</p>
-					<img src="assets/img/TJSO.jpg" alt="">
+					<img src="assets/img/TJSO.jpg" class="img-responsive" alt="">
 					<p><more>I have won a total of 18 total medals, 15 of which are 3<sup>rd</sup> place or higher and have been competing in Science Olympiad since the 7<sup>th</sup> grade. I have won in events such as Astronomy, Boomilever, and Elastic Launched Glider at the regional and state level. </more></p>
 				</div>
 				<div class="col-lg-3">
@@ -533,23 +501,6 @@
 	        e.preventDefault();
 	        $("#sidebar-wrapper").toggleClass("active");
 	    });
-
-	    // Scrolls to the selected menu item on the page
-	    // $(function() {
-	    //     $('a[href*=#]:not([href=#])').click(function() {
-	    //         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-	    //             var target = $(this.hash);
-	    //             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-	    //             if (target.length) {
-	    //                 $('html,body').animate({
-	    //                     scrollTop: target.offset().top
-	    //                 }, 1000);
-	    //                 return false;
-	    //             }
-	    //         }
-	    //     });
-	    // });
     </script>
     <script src="assets/js/bootstrap.js"></script>
   </body>
